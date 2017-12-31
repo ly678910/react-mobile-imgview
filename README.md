@@ -89,7 +89,7 @@ SingleImgView.show({
 ## English | [中文](#user-content-中文--english)
 
 ## react-mobile-imgview
-Imageview component built with react
+Imageview react component for mobile preview built with react
 
 ## Demo
 You can download the code and find demo in folder which is named as examples or [demo online](https://alloyteam.github.io/AlloyViewer/examples/)
