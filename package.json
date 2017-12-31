@@ -1,6 +1,6 @@
 {
   "name": "react-mobile-imgview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A image album for mobile preview, built with reactjs. esay to use and less config.",
   "main": "dist/react-mobile-imgview.js",
   "jsnext:main": "src/index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+git@github.com:CareyToboo/AlloyViewer.git"
+    "url": "git+git@github.com:CareyToboo/react-mobile-imgview.git"
   },
   "keywords": [
     "react",
@@ -23,7 +23,7 @@
   ],
   "author": "toboos@sina.com",
   "license": "MIT",
-  "homepage": "https://github.com/CareyToboo/AlloyViewer/blob/master/README.md",
+  "homepage": "https://github.com/CareyToboo/react-mobile-imgview",
   "peerDependencies": {
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
