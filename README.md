@@ -3,6 +3,9 @@
 ## React图片查看器
 使用React打造的H5图片查看器
 
+## 提示
+* 由于原作者较长时间不维护该项目，导致该项目不能兼容react最新版本^16.0.0。所以我克隆下来维护了一个最新版本，和继续解决相应的BUG。
+
 ## 特性
 * 各类手势快速响应
 * 急速滑动翻页
@@ -18,16 +21,16 @@
 ## 使用方法
 
 ### 1、安装NPM依赖
-`npm install react-imageview --save`
+`npm install react-mobile-imgview --save`
 
 ### 2、随意使用
 ```
 // 例 1:
 
 import React, { Component } from 'react'
-import ImageView from 'react-imageview'
+import ImageView from 'react-mobile-imgview'
 
-import 'react-imageview/dist/react-imageview.min.css'
+import 'react-mobile-imgview/dist/react-mobile-imgview.css'
 
 class Main extends Component {
     state = {
@@ -54,8 +57,8 @@ class Main extends Component {
 
 // 例 2（推荐使用）:
 
-import { SingleImgView } from 'react-imageview'
-import 'react-imageview/dist/react-imageview.min.css'
+import { SingleImgView } from 'react-mobile-imgview'
+import 'react-mobile-imgview/dist/react-mobile-imgview.css'
 
 const imagelist = ['./1.png','./2.png','./3.png','./4.png']
 
@@ -85,7 +88,7 @@ SingleImgView.show({
 
 ## English | [中文](#user-content-中文--english)
 
-## react-imageview
+## react-mobile-imgview
 Imageview component built with react
 
 ## Demo
@@ -94,16 +97,16 @@ You can download the code and find demo in folder which is named as examples or 
 ## Usage with React
 
 ### 1、Install the package
-`npm install react-imageview --save`
+`npm install react-mobile-imgview --save`
 
 ### 2、Using as your need
 ```
 // Example 1:
 
 import React, { Component } from 'react'
-import ImageView from 'react-imageview'
+import ImageView from 'react-mobile-imgview'
 
-import 'react-imageview/dist/react-imageview.min.css'
+import 'react-mobile-imgview/dist/react-mobile-imgview.min.css'
 
 class Main extends Component {
     state = {
@@ -130,8 +133,8 @@ class Main extends Component {
 
 // Example 2（Recommended）:
 
-import { SingleImgView } from 'react-imageview'
-import 'react-imageview/dist/react-imageview.min.css'
+import { SingleImgView } from 'react-mobile-imgview'
+import 'react-mobile-imgview/dist/react-mobile-imgview.min.css'
 
 // You can call SingleImgView.show anywhere and anytime, there will be only one View DOM node be added.
 

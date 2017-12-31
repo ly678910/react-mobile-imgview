@@ -1,7 +1,7 @@
 {
   "name": "react-mobile-imgview",
   "version": "1.0.0",
-  "description": "A image viewer built with react",
+  "description": "A image album for mobile preview, built with reactjs. esay to use and less config.",
   "main": "dist/react-mobile-imgview.js",
   "jsnext:main": "src/index.js",
   "scripts": {
