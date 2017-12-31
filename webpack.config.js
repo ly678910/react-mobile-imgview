@@ -4,7 +4,7 @@ var path = require('path'),
 
 var config = {
     entry: {
-        "react-imageview": './src/index.js'
+        "react-mobile-imgview": './src/index.js'
     },
     externals: {
         "react": "react",
@@ -35,7 +35,7 @@ var config = {
     },
     output: {
         path: 'dist/',
-        library: 'react-imageview',
+        library: 'react-mobile-imgview',
         libraryTarget: 'commonjs2'
     },
     plugins: [

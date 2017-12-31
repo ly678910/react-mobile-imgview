@@ -8,32 +8,32 @@ module.exports = {
         filename: 'bundle.js'
     },
     module: {
-        loaders: [
+        rules: [
         {
             test: /\.css$/,
-            loaders: ['style', 'css']
+            use: ['style-loader', 'css-loader']
         },
         {
             test: /\.less$/,
-            loaders: ['style', 'css', 'less']
+            use: ['style-loader', 'css-loader', 'less-loader']
         },
         {
             test: /\.(png|jpg|gif|woff|woff2)$/,
-            loader: 'url-loader?limit=8192'
+            use: 'url-loader?limit=8192'
         },
         {
             test: /\.(js|jsx)$/,
-            loaders: ['babel'],
+            use: ['babel-loader'],
             exclude: /node_modules/,
             include: [__dirname, path.resolve(__dirname, './../src')]
         }
         ]
     },
-    plugins: [
-        new webpack.optimize.UglifyJsPlugin({
-            compress: {
-                warnings: false
-            }
-        })
-    ]
+    // plugins: [
+    //     new webpack.optimize.UglifyJsPlugin({
+    //         compress: {
+    //             warnings: false
+    //         }
+    //     })
+    // ]
 }
