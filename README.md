@@ -1,10 +1,10 @@
 ## 中文 | [English](#user-content-english--中文)
 
-## React图片查看器
+## React移动设备图片查看器
 使用React打造的H5图片查看器
 
 ## 提示
-* 由于原作者较长时间不维护该项目，导致该项目不能兼容react最新版本^16.0.0。所以我克隆下来维护了一个最新版本，和继续解决相应的BUG。
+* 由于原作者较长时间不维护该项目，导致该项目不能兼容react最新版本^16.0.0。所以我克隆下来维护了一个最新版本，和继续解决相应的BUG。原项目地址[react-imageview](https://github.com/AlloyTeam/AlloyViewer)
 
 ## 特性
 * 各类手势快速响应
@@ -140,8 +140,8 @@ import 'react-mobile-imgview/dist/react-mobile-imgview.min.css'
 
 const imagelist = ['./1.png','./2.png','./3.png','./4.png']
 SingleImgView.show({
-    imagelist, 
-    close: () => { SingleImgView.hide() } 
+    imagelist,
+    close: () => { SingleImgView.hide() }
 });
 ```
 
