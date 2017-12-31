@@ -16,7 +16,7 @@
 * 图片懒加载、预加载
 
 ## 示例
-您可以下载代码在examples文件夹中找到例子或者[在线示例](https://alloyteam.github.io/AlloyViewer/examples/)
+您可以下载代码在examples文件夹中找到例子或者[在线示例](https://careytoboo.github.io/react-mobile-imgview/examples/index.html)
 
 ## 使用方法
 
@@ -92,7 +92,7 @@ SingleImgView.show({
 Imageview react component for mobile preview built with react
 
 ## Demo
-You can download the code and find demo in folder which is named as examples or [demo online](https://alloyteam.github.io/AlloyViewer/examples/)
+You can download the code and find demo in folder which is named as examples or [demo online](https://careytoboo.github.io/react-mobile-imgview/examples/index.html)
 
 ## Usage with React
 
